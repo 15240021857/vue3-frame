@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://15240021857.github.io/15240021857/vue3-frame",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
