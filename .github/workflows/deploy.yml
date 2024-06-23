@@ -35,7 +35,9 @@ jobs:
           BRANCH: main
 
       - name: start build
-        run: npm run build
+        run: |
+          pnpm install
+          npm run build
 
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3
