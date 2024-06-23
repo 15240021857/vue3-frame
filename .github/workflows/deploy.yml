@@ -34,10 +34,11 @@ jobs:
         env:
           BRANCH: main
 
+      - name: install
+        run: npm install
+
       - name: start build
-        run: |
-          pnpm install
-          npm run build
+        run: npm run build
 
       - name: deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3
